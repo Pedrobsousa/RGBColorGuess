@@ -1,0 +1,88 @@
+body {
+  background-color: #232323;
+  color: white;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  line-height: 1.1;
+  color: white;
+  background-color: #232323;
+  margin: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px 0 13px 0;
+  transition: all .3s;
+}
+
+#container {
+  margin: 20px auto;
+  max-width: 650px;
+}
+
+#stripe {
+  background-color: white;
+  height: 45px;
+  text-align: center;
+  color: black;
+}
+
+.selected {
+  color: white;
+  background-color: #232323;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+#message {
+  display: inline-block;
+  width: 20%;
+  color: #232323;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+#displayText {
+  font-size: 1.3em;
+}
+
+#colorDisplay {
+  font-size: 1.3em;
+}
+
+button {
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 700;
+  color: #232323;
+  letter-spacing: 1px;
+  font-size: inherit;
+  transition: all .4s;
+  --webkit-transition: all .4s;
+  --moz-transition: all .4s;
+  outline: none;
+}
+
+button:hover {
+  color: white;
+  background-color: #232323;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.square {
+  width: 30%;
+  background-color: purple;
+  padding-bottom: 30%;
+  float: left;
+  border-radius: 10%;
+  margin: 1.66%;
+  transition: background .4s;
+  --webkit-transition: background .4s;
+  --moz-transition: background .4s;
+}
